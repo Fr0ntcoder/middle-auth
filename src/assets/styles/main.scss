@@ -1,0 +1,32 @@
+@import './other/normalize.css';
+
+input[type='file'],
+input[type='file']::-webkit-file-upload-button {
+	cursor: pointer;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+input {
+	border: none;
+	background: none;
+	outline: none;
+
+	&:focus {
+		box-shadow: none;
+	}
+}
+
+button {
+	padding: 0;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+body,
+html {
+	font-family: $main-font;
+	background: $color-primary;
+}
